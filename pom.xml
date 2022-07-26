@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>com.travelport.nextgen-ticket</groupId>
+		<artifactId>ticket-parent</artifactId>
+		<version>11.19.5.0</version>
+	</parent>
+	<groupId>com.travelport.nextgen-ticket</groupId>
+	<artifactId>ticket-hca-1g</artifactId>
+	<name>ticket-hca-1g</name>
+	<properties>		
+		<java.version>1.8</java.version> <!-- Do not remove it. This is used by child modules -->
+		<maven.surefire.version>2.19.1</maven.surefire.version> <!-- Do not remove it. This is used by child modules -->
+		<hca.connector.version>2.1.21.3</hca.connector.version>		
+	</properties>
+	
+	
+	<dependencies>		
+		<dependency>
+			<groupId>com.travelport.odt.restfw</groupId>
+			<artifactId>rest-framework-common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.travelport.resman</groupId>
+			<artifactId>hca-connector</artifactId>
+			<version>${hca.connector.version}</version>
+			<exclusions>				
+				<exclusion>
+					<groupId>javaee</groupId>
+					<artifactId>javaee-api</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		
+	</dependencies>
+	
+	
+	<build>
+		<finalName>${project.artifactId}</finalName>
+		<resources>
+			<resource>
+				<directory>${basedir}/src/main/resources</directory>
+			</resource>
+			<resource>
+				<directory>${basedir}/src/main/java</directory>
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven.surefire.version}</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>3.2.1</version>
+			</plugin>
+		</plugins>
+	</build>
+</project>

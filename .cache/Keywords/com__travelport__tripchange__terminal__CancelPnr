@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "B761D95D5C37B8B87038A4E8225AB93F",
+  "keywordClasses": [
+    {
+      "name": "com.travelport.tripchange.terminal.CancelPnr",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

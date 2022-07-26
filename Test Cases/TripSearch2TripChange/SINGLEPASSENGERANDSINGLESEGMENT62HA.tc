@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SINGLEPASSENGERANDSINGLESEGMENT62HA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebc2e615-f45d-4e6a-a9b8-33bd207f0347</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>33601664-7f7e-46a7-8ea8-bf206aa6eff0</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Environment</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e71db015-173b-44ca-b87e-019da72fbe42</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestData</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

@@ -1,0 +1,90 @@
+{
+  "keywordFileContentHash": "241979D266437112F0D2797CCF9379B5",
+  "keywordClasses": [
+    {
+      "name": "com.travelport.tripchange.terminal.TerminalData",
+      "keywordMethods": [
+        {
+          "name": "verifyStatusCode",
+          "parameters": [
+            {
+              "name": "request",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "expectedStatusCode",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "addBasicAuthorizationProperty",
+          "parameters": [
+            {
+              "name": "request",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "username",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "com.travelport.tripchange.terminal.TerminalData$TerminalData",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

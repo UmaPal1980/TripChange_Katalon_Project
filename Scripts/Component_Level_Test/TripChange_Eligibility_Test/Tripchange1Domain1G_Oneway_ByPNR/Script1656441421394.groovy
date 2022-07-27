@@ -165,7 +165,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 			}
 		 
 			
-			def sRefundable = sEligibility.TicketChangeEligibilityListResponse.TicketChangeEligibility[0].refundable
+			def sRefundable = sEligibility.TicketChangeEligibilityListResponse.TicketChangeEligibilityID[0].refundable
 			
 			if ((sRefundable.length() > 0) && (sRefundable != null)) {
 				KeywordUtil.markPassed('Refundable value  is available in Response as :- ' + sRefundable) //KeywordUtil.logInfo('The PNR is not exchangeable')

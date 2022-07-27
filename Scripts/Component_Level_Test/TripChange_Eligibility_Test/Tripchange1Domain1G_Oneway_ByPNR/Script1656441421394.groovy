@@ -141,16 +141,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 				}
 
 
-				//if (sKeys == 'CancelPermitted') {
-//				String sCancelPermittedValue = sEligibility.TicketChangeEligibilityListResponse.TicketChangeEligibility[
-//				0].Penalties.Cancel[0].Penalty[0].Amount.value
-//
-//				if ((sCancelPermittedValue.length() > 0) && (sCancelPermittedValue != null)) {
-//					KeywordUtil.markPassed('CancelPermitted value  is available in Response as :- ' + sCancelPermittedValue) //KeywordUtil.logInfo('The PNR is not exchangeable')
-//				} else {
-//					KeywordUtil.markFailed('Error Response returned or CancelPermitted value  is is not available')
-//				}
-
 
 			}
 
